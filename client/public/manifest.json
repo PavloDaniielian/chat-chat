@@ -1,0 +1,6 @@
+{
+  "short_name": "Grocery Guy App",
+  "name": "Grocery Guy App",
+  "start_url": "./index.html",
+  "display": "standalone",
+}
