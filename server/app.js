@@ -6,8 +6,8 @@ const io = require('socket.io')(server);
 
 const allMessages = [];
 
-server.listen(8080, '127.0.0.1', () => {
-  console.log('Server started, listening on 127.0.0.1:8080 ... '); 
+server.listen(80, '127.0.0.1', () => {
+  console.log('Server started, listening on 127.0.0.1:80 ... '); 
 });
 
 io.on('connection', (socket) => {

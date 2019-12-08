@@ -1,5 +1,5 @@
 export const environment = {
-  'server_address': 'http://localhost:8080',
+  'server_address': 'http://52.52.112.70:8080',
 };
 
 export const configure_socket = (socket, callbackResponder) => {
